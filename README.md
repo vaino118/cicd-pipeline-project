@@ -20,3 +20,13 @@ This repository demonstrates a complete, automated CI/CD pipeline built with Git
 ## 🚦 Status Badges
 ![CI Validation](https://github.com/vaino118/cicd-pipeline-project/actions/workflows/ci.yml/badge.svg)
 ![OWASP Security Scan](https://github.com/vaino118/cicd-pipeline-project/actions/workflows/security.yml/badge.svg)
+
+## 📸 Project Screenshots
+
+### 1. The Locked Door (Branch Protection & Status Checks)
+*The pipeline passes all tests and security scans, but the merge is blocked because it requires a human review.*
+![Branch Protection](images/blocked-merge.png)
+
+### 2. OWASP Security Scan in Action
+*The CodeQL robot analyzing the code for vulnerabilities.*
+![Security Scan](images/security-scan.png)
